@@ -32,7 +32,7 @@ Make sure you have the following frameworks and libraries installed on your loca
 
 2. Make sure that you have [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local) & [Azure Cosmos DB Emulator](https://learn.microsoft.com/en-us/azure/cosmos-db/emulator-release-notes) downloaded & installed locally.
 3. Using your IDE (Maven extension) `mvn clean package` then `mvn azure-functions:run` or just Run the function itself from the green Run beside the function name.
-4. Using Postman you can send a request, attached a [Postan collection](/AzureFunction.postman_collection.json) for the easy testing.
+4. Using Postman you can send a request, attached a [Postan collection](parser/AzureFunction.postman_collection.json) for the easy testing.
 5. Check the console the running port, because sometimes the port of randomly generated every run.
 6. Make sure that you have run the Cosmos Emulator.
 
