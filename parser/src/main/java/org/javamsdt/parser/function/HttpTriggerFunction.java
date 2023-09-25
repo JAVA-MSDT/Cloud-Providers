@@ -9,6 +9,8 @@ import com.microsoft.azure.functions.HttpStatus;
 import com.microsoft.azure.functions.annotation.AuthorizationLevel;
 import com.microsoft.azure.functions.annotation.FunctionName;
 import com.microsoft.azure.functions.annotation.HttpTrigger;
+import lombok.RequiredArgsConstructor;
+import org.javamsdt.parser.configuration.CosmosConfig;
 import org.javamsdt.parser.model.User;
 
 import java.util.Optional;
@@ -17,6 +19,7 @@ import java.util.Optional;
  * Azure Functions with HTTP Trigger.
  */
 public class HttpTriggerFunction {
+
 
     /**
      * This function listens at endpoint "/api/parser". Two ways to invoke it using "curl" command in bash:
@@ -43,6 +46,13 @@ public class HttpTriggerFunction {
             return request.createResponseBuilder(HttpStatus.BAD_REQUEST).body("Invalid JSON input").build();
         }
         System.out.println("User response:: " + user);
+        try {
+            CosmosConfig.cosmosContainer().createItem(user);
+            CosmosConfig.closeCosmos();
+            System.out.println("Data inserted.....");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return request.createResponseBuilder(HttpStatus.OK).body(user).build();
     }
 }
