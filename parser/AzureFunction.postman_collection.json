@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "61eda0d2-f061-47ec-b396-6720b7d6bad4",
+		"name": "AzureFunction",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9368472"
+	},
+	"item": [
+		{
+			"name": "http://localhost:7071/api/parser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"id\",\r\n    \"username\": \"Username\",\r\n    \"password\": \"Password\",\r\n    \"district\": \"District\",\r\n    \"registered\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/parser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"parser"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
