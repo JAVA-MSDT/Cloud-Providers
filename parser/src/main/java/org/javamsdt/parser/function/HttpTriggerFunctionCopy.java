@@ -1,4 +1,6 @@
-package org.javamsdt.parser;
+package org.javamsdt.parser.function;
+
+import java.util.Optional;
 
 import com.microsoft.azure.functions.ExecutionContext;
 import com.microsoft.azure.functions.HttpMethod;
@@ -9,18 +11,16 @@ import com.microsoft.azure.functions.annotation.AuthorizationLevel;
 import com.microsoft.azure.functions.annotation.FunctionName;
 import com.microsoft.azure.functions.annotation.HttpTrigger;
 
-import java.util.Optional;
-
 /**
  * Azure Functions with HTTP Trigger.
  */
-public class HttpTriggerFunction {
+public class HttpTriggerFunctionCopy {
     /**
-     * This function listens at endpoint "/api/parser". Two ways to invoke it using "curl" command in bash:
-     * 1. curl -d "HTTP Body" {your host}/api/parser
-     * 2. curl "{your host}/api/parser?name=HTTP%20Query"
+     * This function listens at endpoint "/api/parserCopy". Two ways to invoke it using "curl" command in bash:
+     * 1. curl -d "HTTP Body" {your host}/api/parserCopy
+     * 2. curl "{your host}/api/parserCopy?name=HTTP%20Query"
      */
-    @FunctionName("parser")
+    @FunctionName("parserCopy")
     public HttpResponseMessage run(
             @HttpTrigger(
                 name = "req",
