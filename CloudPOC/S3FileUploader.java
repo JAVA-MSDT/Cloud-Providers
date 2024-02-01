@@ -22,7 +22,7 @@ import java.util.List;
 
 @Slf4j
 public class S3FileUploader implements S3BucketClient {
-    private static final int MINIMAL_ALLOWED_MULTIPART_SIZE = 5_242_880;
+    private static final int MINIMUM_SINGLE_UPLOAD_SIZE = 5_242_880;
     private static final int CHUNK_SIZE = 5_242_880;
 
     private final S3Client client;
@@ -42,7 +42,7 @@ public class S3FileUploader implements S3BucketClient {
             long fileSize = Files.size(Path.of(tempFileName));
 
             boolean sent;
-            if (fileSize > MINIMAL_ALLOWED_MULTIPART_SIZE) {
+            if (fileSize > MINIMUM_SINGLE_UPLOAD_SIZE) {
                 sent = sendInParts(exportFileName, tempFileName);
             } else {
                 sent = sendAsWhole(exportFileName, tempFileName);
