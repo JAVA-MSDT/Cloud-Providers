@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Slf4j
-public class UploadFileToS3 implements S3BucketClient {
+public class S3FileUploader implements S3BucketClient {
     private static final int MINIMAL_ALLOWED_MULTIPART_SIZE = 5_242_880;
     private static final int CHUNK_SIZE = 5_242_880;
 
@@ -49,11 +49,10 @@ public class UploadFileToS3 implements S3BucketClient {
             }
 
             if (!sent) {
-                throw new TechnicalException("Unexpected error while sending file to S3");
+                throw new IOException("Unexpected error while sending file to S3");
             }
         } catch (IOException e) {
             log.error(e.getMessage(), e);
-            throw new TechnicalException(e);
         }
     }
 
