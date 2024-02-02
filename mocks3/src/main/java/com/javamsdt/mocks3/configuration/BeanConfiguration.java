@@ -19,9 +19,6 @@ public class BeanConfiguration {
 
     @Bean
     public S3Client s3Client(AwsBasicCredentials credentials, Region region) {
-        System.out.println("regionName:: " + regionName);
-        System.out.println("accessKey:: " + accessKey);
-        System.out.println("secretKey:: " + secretKey);
         return S3Client
                 .builder()
                 .region(region)
