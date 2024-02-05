@@ -15,18 +15,13 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 class SimpleS3UploadTest {
     @Autowired
     private S3Client s3TestClient;
-    @Autowired
-    private SimpleS3Upload simpleS3Upload;
     private final static String BUCKET_NAME = "test-s3-files-storage";
 
 
     @Test
     void uploadFileToS3() {
         createBucket(s3TestClient, BUCKET_NAME);
-        System.out.println(simpleS3Upload.getClassName());
         System.out.println("Bucket Size" + s3TestClient.listBuckets().buckets().size());
-
-        assertNotNull(simpleS3Upload);
         assertNotNull(s3TestClient);
     }
 
