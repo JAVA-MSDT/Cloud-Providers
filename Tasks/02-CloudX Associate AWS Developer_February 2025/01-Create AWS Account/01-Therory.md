@@ -83,7 +83,7 @@ AWS has several benefits over other large cloud providers, including:
 ### Before you get started:
 AWS overview in 10 minutes.
 <br><br>
-[![Before you get started](images/Before_you_get_started.png)](https://www.youtube.com/watch?v=r4YIdn2eTm4&ab_channel=Simplilearn)
+[![Before you get started](../assets/Before_you_get_started.png)](https://www.youtube.com/watch?v=r4YIdn2eTm4&ab_channel=Simplilearn)
 
 ## AWS Fundamentals. 
 ### Core Concepts
@@ -167,7 +167,7 @@ For more information please checkout the following materails: > [AWS CLI](https:
 **Course Description**: This course is about basic AWS services and concepts. 
 All topics in it will help to prepare and pass AWS Practitioner Certification.
 <br><br>
-[![AWS Practitioner_Certification](images/aws_overview_based_on_practitioner_certification_course.png)](https://youtu.be/3hLmDS179YE)
+[![AWS Practitioner_Certification](../assets/aws_overview_based_on_practitioner_certification_course.png)](https://youtu.be/3hLmDS179YE)
 
 ### General description:
 
