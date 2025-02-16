@@ -83,7 +83,7 @@ AWS has several benefits over other large cloud providers, including:
 ### Before you get started:
 AWS overview in 10 minutes.
 <br><br>
-[![Before you get started](../assets/Before_you_get_started.png)](https://www.youtube.com/watch?v=r4YIdn2eTm4&ab_channel=Simplilearn)
+[![Before you get started](../assets/01-Intro/Before_you_get_started.png)](https://www.youtube.com/watch?v=r4YIdn2eTm4&ab_channel=Simplilearn)
 
 ## AWS Fundamentals. 
 ### Core Concepts
@@ -105,7 +105,7 @@ The AWS Fundamentals Course will be divided into five modules. Each module will 
 
 #### The Six Pillars
 <br><br>
-![AWS six pillars](../assets/aws_six_pillars.png)
+![AWS six pillars](../assets/01-Intro/aws_six_pillars.png)
 
 
 The Six Pillars covered in the AWS Fundamentals Course come from the [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/?e=gs2020&p=fundcore&p=gsrc&c=fcc). 
@@ -129,7 +129,7 @@ responsibility also provides the flexibility and customer control that permits
 the deployment. As shown in the chart below, this differentiation of responsibility 
 is commonly referred to as Security “of” the Cloud versus Security “in” the Cloud.
 
-![](../assets/aws_shared_responsibility_model.png)
+![](../assets/01-Intro/aws_shared_responsibility_model.png)
 
 **AWS responsibility “Security of the Cloud”** - AWS is responsible for protecting 
 the infrastructure that runs all of the services offered in the AWS Cloud. 
@@ -149,7 +149,7 @@ by the customer on the instances, and the configuration of the AWS-provided fire
 and Amazon DynamoDB, AWS operates the infrastructure layer, the operating system, 
 and platforms, and customers access the endpoints to store and retrieve data. 
 Customers are responsible for managing their data (including encryption options), 
-classifying their assets, and using IAM tools to apply the appropriate permissions.
+classifying their assets/01-Intro, and using IAM tools to apply the appropriate permissions.
 
 For more information please checkout the following materails: > [Shared Responsibility Model](https://aws.amazon.com/compliance/shared-responsibility-model/)
 
@@ -167,7 +167,7 @@ For more information please checkout the following materails: > [AWS CLI](https:
 **Course Description**: This course is about basic AWS services and concepts. 
 All topics in it will help to prepare and pass AWS Practitioner Certification.
 <br><br>
-[![AWS Practitioner_Certification](../assets/aws_overview_based_on_practitioner_certification_course.png)](https://youtu.be/3hLmDS179YE)
+[![AWS Practitioner_Certification](../assets/01-Intro/aws_overview_based_on_practitioner_certification_course.png)](https://youtu.be/3hLmDS179YE)
 
 ### General description:
 
