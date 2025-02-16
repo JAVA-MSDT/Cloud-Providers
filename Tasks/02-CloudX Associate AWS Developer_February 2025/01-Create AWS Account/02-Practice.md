@@ -47,7 +47,7 @@ You can configure the service control policies (SCPs) in your organization to wo
 
 Recommended to start from deny list ([link](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_strategies.html#orgs_policies_denylist)). Create organization and new policy. Visual editor will help adding necessary statements. You can review Intro and identify usage of which resources should not be prohibited.
 
-<img src="../assets/SCP.png" alt="Main images car heading twards oracle learning badge">
+<img src="../assets/01-Intro/SCP.png" alt="Main images car heading twards oracle learning badge">
 
 ## What should I remember?
 
