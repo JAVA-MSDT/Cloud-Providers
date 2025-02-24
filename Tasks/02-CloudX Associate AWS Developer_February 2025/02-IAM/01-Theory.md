@@ -312,7 +312,4 @@ etc.)?
 * [AWS Policy evaluation logic](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)
 * [AWS IAM FAQs](https://aws.amazon.com/iam/faqs/)
 
-### Recommended Trainings:
-- [AWS Certified Solutions Architect - Associate (SAA-C02): 5 Identity and Access Management](https://learn.epam.com/detailsPage?id=711b13a6-3eba-4d0a-a87c-278c60661983&source=EXTERNAL_COURSE)
-
 ## Optional: [Materials for AWS Certification Exam](03-certification_security.md)
