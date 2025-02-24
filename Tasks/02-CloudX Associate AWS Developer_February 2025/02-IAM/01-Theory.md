@@ -297,7 +297,7 @@ _**Hint**_: in some cross environment and/or regional cases you could add enviro
 etc.)?
 
 ## Hands-on Labs:
-  [Get the hands-on experience with basic and advanced labs](./hands-on-labs.md)
+  [Get the hands-on experience with basic and advanced labs](02-hands-on-labs.md)
 
 ## More details
 
@@ -315,7 +315,4 @@ etc.)?
 ### Recommended Trainings:
 - [AWS Certified Solutions Architect - Associate (SAA-C02): 5 Identity and Access Management](https://learn.epam.com/detailsPage?id=711b13a6-3eba-4d0a-a87c-278c60661983&source=EXTERNAL_COURSE)
 
-### IAM policy examples
-- [Policies and templates](iam-policies/README.md)
-
-## Optional: [Materials for AWS Certification Exam](./certification_security.md)
+## Optional: [Materials for AWS Certification Exam](03-certification_security.md)
