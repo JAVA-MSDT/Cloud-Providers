@@ -142,12 +142,10 @@ For more information, see [S3](modules/s3.md) module.
 15. What is the use scenario for each Amazon FSx file system type?
 
 ## Hands-on Labs:
-  [Get the hands-on experience with basic and advanced labs](./hands-on-labs.md)
+  [Get the hands-on experience with basic and advanced labs](./02-hands-on-labs.md)
 
 ## More details
 
 ### Recommended Trainings:
 
-- [AWS Certified Solutions Architect - Associate (SAA-C02): 2 Storage Design](https://learn.epam.com/detailsPage?id=2a69c48d-24e4-4f5d-b89c-e08d0d82ef5d&source=EXTERNAL_COURSE)
-
-## Optional: [Materials for AWS Certification Exam](./certification_storage.md)
+## Optional: [Materials for AWS Certification Exam](./03-certification_storage.md)
