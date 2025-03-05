@@ -73,7 +73,7 @@ For more information, see [EBS](modules/ebs.md) module.
 
 It is a scalable, cloud-based file system for Linux-based applications and workloads that can be used in combination with AWS cloud services and on-premise resources.
 
-For more information, see [EFS](efs.md) module.
+For more information, see [EFS](modules/efs.md) module.
 
 <br>
 
@@ -91,7 +91,7 @@ Amazon FSx integrates the file systems with cloud-native AWS services, making th
 ![](images/fsx-logo.png)
 <img src="../assets/03-Storage/fsx-logo.png" width="200">
 
-For more information, see [Amazone FSx](fsx.md) module.
+For more information, see [Amazone FSx](modules/fsx.md) module.
 
 <br>
 
@@ -102,7 +102,7 @@ For more information, see [Amazone FSx](fsx.md) module.
 
 **Amazon Simple Storage Service**, widely known as **Amazon S3**, is a highly scalable, fast, and durable solution for object-level storage of any data type. Unlike the operating systems we are all used to, Amazon S3 does not store files in a file system, instead it stores files as objects. Object Storage allows users to upload files, videos, and documents like you were to upload files, videos, and documents to popular cloud storage products like Dropbox and Google Drive. This makes Amazon S3 very flexible and platform agnostic.
 
-For more information, see [S3](s3.md) module.
+For more information, see [S3](modules/s3.md) module.
 
 <br>
 
