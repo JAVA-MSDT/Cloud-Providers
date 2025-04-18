@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>EC2 Metadata</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>EC2 Instance Metadata</h1>
+    <div class="metadata">
+        <p><strong>Region:</strong> <span th:text="${region}">N/A</span></p>
+        <p><strong>Availability Zone:</strong> <span th:text="${availabilityZone}">N/A</span></p>
+    </div>
+    <div class="api-link">
+        <a href="/api/metadata/ec2">View as JSON</a>
+    </div>
+</div>
+</body>
+</html>
