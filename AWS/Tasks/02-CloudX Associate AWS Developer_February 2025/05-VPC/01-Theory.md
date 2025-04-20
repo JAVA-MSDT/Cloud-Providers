@@ -86,7 +86,7 @@ AWS maintains a pool of public IP addresses in each region and makes them availa
 By default, any instance that you launch into a private subnet in an Amazon VPC is not able to communicate with the Internet through the IGW. This is problematic if the instances within private subnets need direct access to the Internet from the Amazon VPC in order to apply security updates, download patches, or update application software. AWS provides NAT instances and NAT gateways to allow instances deployed in private subnets to gain Internet access. For common use cases, we recommend that you use a NAT gateway instead of a NAT instance. The NAT gateway provides better availability and higher bandwidth, and requires
 less administrative effort than NAT instances.
 
-For more information, see [NAT Instances and NAT Gateways](NAT.md).
+For more information, see [NAT Instances and NAT Gateways](modules/02-NAT.md).
 
 ## VPC endpoint
 
@@ -130,7 +130,7 @@ Flow logs can publish flow log data directly to Amazon CloudWatch. Data ingestio
 
 - [Amazon VPC Flow Log pricing](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html#flow-logs-pricing)
 
-For more information, see [VPC Flow Logs](FlowLogs.md).
+For more information, see [VPC Flow Logs](modules/01-01.FlowLogs.md).
 
 ## Route 53
 
