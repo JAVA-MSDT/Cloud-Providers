@@ -38,11 +38,11 @@ Please, read the following article that you should understand before doing anyth
 
 Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the Amazon Web Services (AWS) Cloud where you can launch AWS resources in a virtual network that you define. You have complete control over your virtual networking environment, including selection of your own IP address range, creation of subnets, and configuration of route tables and network gateways
 
-Read [Amazon Virtual Private Cloud ](VPC.md) to get more details.
+Read [Amazon Virtual Private Cloud ](modules/01-VPC.md) to get more details.
 
 ## Elastic Network Interfaces (ENIs)
 
-![](images/2.4.png)
+![](assets/images/2.4.png)
 
 An Elastic Network Interface (ENI) is a virtual network interface that you can attach to an instance in an Amazon VPC. ENIs are only available within an Amazon VPC, and they are associated with a subnet upon creation. They can have one public IP address and multiple private IP addresses. If there are multiple private IP addresses, one of them is primary. Assigning a second network interface to an instance via an ENI allows it to be dual-homed (have network presence in different subnets). An ENI created independently of a particular instance persists regardless of the lifetime of any instance to which it is attached; if an underlying instance fails, the IP address may be preserved by attaching the ENI to a replacement instance.
 
@@ -62,7 +62,7 @@ You can optionally associate an IPv6 CIDR block with your VPC and subnets, and a
 
 ## Elastic IP Addresses (EIPs)
 
-![](images/2.5.png)
+![](assets/images/2.5.png)
 
 AWS maintains a pool of public IP addresses in each region and makes them available for you to associate to resources within your Amazon VPCs. An Elastic IP Addresses (EIP) is a static, public IP address in the pool for the region that you can allocate to your account (pull from the pool) and release (return to the pool). EIPs allow you to maintain a set of IP addresses that remain fixed while the underlying infrastructure may change over time. Here are the important points to understand about EIPs:
 
@@ -103,23 +103,20 @@ For more information, see [VPC Peering](VPC-Peering.md)
 ## Transit Gateway (TGW)
 With large number of VPCs, Transit Gateway provides simpler VPC-to-VPC communication management over VPC Peering. Note that the transit hub can be used to interconnect not only our VPCs but also on-premises networks.
 
-![](images/2.14.png)
+![](assets/images/2.14.png)
 
 The Transit Gateway provides a hub and spoke design for connecting VPCs and on-premises networks as a fully managed service without VPN overlay.
 
-![](images/2.13.png)
+![](assets/images/2.13.png)
 
-<<<<<<< HEAD
 ## Use cases / Considerations
 - __Deliver applications around the world.__ Build, deploy, and manage applications across thousands of Amazon VPCs without having to manage peering connections or update routing tables.
 - __Rapidly move to global scale.__ Share VPCs, Domain Name System (DNS), Microsoft Active Directory, and IPS/IDS across Regions with inter-Region peering.
 - __Smoothly respond to spikes in demand.__ Quickly add Amazon VPCs, AWS accounts, virtual private networking (VPN) capacity, or AWS Direct Connect gateways to meet unexpected demand.
 - __Host multicast applications on AWS.__ Host multicast applications that scale based on demand, without the need to buy and maintain custom hardware.
-=======
 ### Pricing considerations
 
 - [Amazon Transit Gateway pricing](https://aws.amazon.com/transit-gateway/pricing/)
->>>>>>> 6fbdc97 (Added pricing for modules)
 
 See [documentation](https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html) to get more details.
 
