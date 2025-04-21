@@ -176,7 +176,7 @@ Video:
 17. Do you pay for VPC when using EC2 instances?
 
 ## Hands-on Labs:
-  [Get the hands-on experience with basic and advanced labs](./hands-on-labs.md)
+  [Get the hands-on experience with basic and advanced labs](02-hands-on-labs.md)
 
 ## More details:
 
@@ -204,10 +204,4 @@ Video:
 - [AWS Routing 101](https://medium.com/@mda590/aws-routing-101-67879d23014d)
 - [What is bastion?](https://aws.amazon.com/ru/quickstart/architecture/linux-bastion/)
 
-### Recommended Trainings:
-
-- [AWS: Networking](https://learn.epam.com/detailsPage?id=2699c11b-d1c8-455a-bf5e-1af537ba363c&source=EXTERNAL_COURSE)
-- [AWS Certified Solutions Architect - Associate (SAA-C02): 3 Virtual Private Cloud](https://learn.epam.com/detailsPage?id=b29ebc21-f056-4436-a748-8b7ce12efbd1&source=EXTERNAL_COURSE)
-- [AWS Certified Solutions Architect - Associate (SAA-C02): 6 Auto Scaling and Virtual Network Services](https://learn.epam.com/detailsPage?id=93b5715a-7725-4456-8034-a897287b5787&source=EXTERNAL_COURSE)
-
-## Optional: [Materials for AWS Certification Exam](./certification_networking.md)
+## Optional: [Materials for AWS Certification Exam](03-certification_networking.md)
