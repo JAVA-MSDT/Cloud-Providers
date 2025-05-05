@@ -29,10 +29,6 @@
 4. How can you use the same template for multiple environments?
 5. Where can you view the results of template execution?
 
-## Recommended Trainings:
-
-- [Learning AWS CloudFormation](https://learn.epam.com/detailsPage?id=eec8960e-cf89-469a-924d-7f473acc721e&source=EXTERNAL_COURSE)
-
 ## Cloudformation
 
 ![](assets/images/changeset-diagram.png)
@@ -174,9 +170,9 @@ This is a powerful set of tools and features that you can use to perform many op
 - [Systems Manager prerequisites](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-prereqs.html)
 - [AWS Systems Manager Pricing](https://aws.amazon.com/systems-manager/pricing/)
 
-[Please find More Details](SSM.md)
+[Please find More Details](02-SSM.md)
 
-## [Secret Management in AWS](./secretsManagement.md)
+## [Secret Management in AWS](03-secretsManagement.md)
 
 ## Hands-on Labs:
-  [Get the hands-on experience with basic and advanced labs](./hands-on-labs.md)
+  [Get the hands-on experience with basic and advanced labs](04-hands-on-labs.md)
